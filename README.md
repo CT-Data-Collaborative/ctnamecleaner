@@ -1,6 +1,23 @@
-# village-town-crosswalk
+# CTData Collaborative's Connecticut Name Cleaner
 
-* A two-column .csv file with Connecticut's village-town pairs
-* May include misspelled village names (if found in government's datasets, e.g. *Old Saybrooik*)
-* Does **not** include special cases like **Mystic** (located in both Groton and Stonington) or Georgetown (located in 4 towns)
-* New village/town pairs added manually as CTData Collaborative works with new datasets
+Inspired by the [work of TrendCT](https://github.com/trendct/ctnamecleaner),
+this repository contains a simple 2-column crosswalk of misspelled town names
+and villages in Connecticut and their respective correct town names (there
+are 169 of those in the state).
+
+### `ctnamecleaner.head(5)`
+```
+name,realname
+AMSTON,HEBRON
+ANDOVER,ANDOVER
+ANSONIA,ANSONIA
+ASHFORD,ASHFORD
+AVON,AVON
+```
+
+### Updates & Contributions
+We at CTData keep updating this crosswalk as we process more datasets.
+Any contributions are welcome.
+
+### License
+MIT
