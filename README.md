@@ -51,11 +51,13 @@ OLD MYSTIC,GROTON
 - Old Mystic, a different census-designated place, is located entirely in the Town of Groton.
 - [Datawrapper map link](https://www.datawrapper.de/_/YyuoF/?v=3)
 
-![map of Mystic CT place names](YuuoF-demystifying-mystic-connecticut-place-names.png)
+![map of Mystic CT place names](misc/YuuoF-demystifying-mystic-connecticut-place-names.png)
 
 ### Updates & Contributions
 We at CTData keep updating this crosswalk as we process more datasets.
 Any contributions are welcome.
+
+To make sure we don't have duplicates and map to one of 169 towns only, and to order entries alphabetically, you can run `misc/QA.ipynb`.
 
 ### License
 MIT
